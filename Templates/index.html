@@ -1,0 +1,35 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Tourism Management</title>
+    <link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+<center>
+
+
+        <h2 align="center"><font color="black">STAR TOURISM TRAVELS</font></h2>
+
+    </center>
+    <a href="{% url 'register'%}">Sign-Up |</a>
+    <a href="{% url 'login' %}">Login |</a>
+        <a href="{% url '' %}">Home</a>&nbsp&nbsp
+     <a href="{% url 'about' %}">About Us</a>&nbsp&nbsp
+     <a href="{% url 'contact' %}">Contact Us</a>
+    {% block 'b1' %}
+
+ {% endblock %}
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/8a/6c/bc/8a6cbca9095a2c6ae47e7c72f832dc8d.jpg');
+            /* background-size: auto; */ /* This line seems to be commented out, I left it as is */
+        }
+    </style>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    background-color: #BA90C6;
+}
+
+h2 {
+    background-color: white;
+    padding: 5px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4F709C; //
+  border-radius: 9px;
+  transition: background-color 0.3s ease;
+}
+
+
+a:hover {
+  background-color: #F8F4EC;
+}
+/* style.css */
+
+body {
+    background-image: url('https://i.pinimg.com/564x/8a/6c/bc/8a6cbca9095a2c6ae47e7c72f832dc8d.jpg');
+    background-size: auto;
+}
+
+
+
